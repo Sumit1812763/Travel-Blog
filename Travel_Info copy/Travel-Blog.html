@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title><Travel-Blog></Travel-Blog></title>
+    <link rel="stylesheet" href="Travel.css">
+    <script src="Travel.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"><!--allows me to acces search icon-->
+
+
+<body>
+    <div class="home-page">
+        <nav>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <li><a href="#blog">Blog</a></li><!--creates nav link to internal page remeber # and then id name-->
+                <a href="#">About</a>
+                <a href="#">Subscribe</a>
+            </div>
+        </nav>
+
+        <div class="header">
+            <h1>Travel Blog</h1>
+        </div>
+        
+        <div class="intro">
+            <p>Everything you need to know about city travel</p>
+        </div>
+
+        <form>
+            <input id="input-text" type="text" class="search-input" placeholder="Enter City"><!--creates searchbox and allows the inside to be filled with "enter your city"-->
+            <button id="submit" type="submit" class="search-button" required><!--creates button and validates that input must be made before button pressed-->
+                <i class= material-icons>search</i><!--creates search icon, i got it from google web fonts(accesed from the link)-->
+            </button>
+        </form>
+    </div>
+    <!--end of home-->
+    <section>
+        <div id="blog">
+            <h1>London</h1>
+        </div>
+        <div class="main-content">
+            <p>
+                London is a vibrant city and the capital of the United Kingdom. One of the biggest cities in Europe and one of the world's largest finnancial centre.
+                Main sights to see include:
+            </p>
+            <ul>
+                <li>London Eye</li>
+                <li>Big ben</li>
+                <li>Buckingham Palace</li>
+            </ul>
+        </div>    
+    </section>
+    <!--London blog ends-->
+    
+    <div class="section2">
+        <div id="paris-blog">
+            <h1>Paris</h1>
+        </div>
+        <div class="paris-content">
+            <p>
+                Paris is a vibrant city and the capital of the France. One of the biggest cities in Europe and home to the river Siene.
+                Main sights to see include:
+            </p>
+            <ul>
+                <li>Effiel Tower</li>
+                <li>Arc de Triaomphe</li>
+                <li>Louvre</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+
+
+
+</html>

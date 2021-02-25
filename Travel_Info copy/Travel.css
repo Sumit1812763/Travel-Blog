@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');/*for font*/
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');/*for search icon*/
+
+/*all above imports allow me to access and use the fonts and icon image from the web source*/
+
+body{
+    margin: 0px;/*marin the space between all the elements(header,body etc) and the actual windows*/
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;/*aligns nav on top and in one single line*/
+    align-items:center ;/*moves nav so that its not touching the top of the window*/
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: black ;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;/*makes sure there is space betwen each link*/
+    width: 30%;/*space between links specified*/
+}
+
+.nav-links li{
+    list-style: none;/*removes bullet point on headings*/
+}
+
+.nav-links a{
+   color: white;
+   text-decoration: none; /*removes the underline under nav headings(hyperlinks)*/
+    font-weight: bold;/*boldens headings*/
+}
+
+.nav-links a:hover{/*this acces when the mouse hover our the nav links*/
+    opacity: 0.7;/* allows link to be a darker colour when mouse is hoveing over the link*/
+}
+
+.home-page{
+    background-image: url("Travel.jpg");  /*sets background to image*/
+    background-repeat: no-repeat; /*stops image from repeating on screen*/
+    background-size: cover;/*allows background to cover all of the screen no white spaces (only covers body)*/
+    background-position: center;/*centers the background image*/
+
+    display: grid;
+    align-items: center;
+    font-family: 'Playfair Display', serif;/*all text in body including header and other stuff same font*/
+    
+    padding-bottom: 900px;
+}
+
+
+.header{
+    text-align: center;/*positiions text in center of line/horizontally (not webpage) */
+    padding-top: 200px;/*amount of space from the nav links moves it vertically down*/
+   
+}
+
+.intro{
+    color: black;
+    text-align: center;/*positions center horizontally*/
+    padding-top: 20px;/*amount of space from the heading*/
+    font-weight: bold;
+    word-spacing: 5px;
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;/*both commands allow searchbox to be displayed in middle vertically and horiontally*/
+    padding-top: 10px;
+    background-color: white;  
+    margin-right: 60rem;/*sets white space around searchbox*/
+    margin-left: 60rem;
+    
+    border-radius: 2rem;/*allows the form background to have curves at the end*/
+    padding: 0.6rem 1rem;/*padding of form done by height then width(basically to searchbox)*/
+     
+    
+    
+}
+
+.search-input{
+    border: none;/*removes border around search box*/
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 2rem;/*allows the searchbox to have curves at the end*/
+    font-family: 'Playfair Display', serif;
+}
+
+.search-button{
+    border: none;/*removes border around search button*/
+    background: transparent;/*makes the search icon disapper its boundaires basically transparent*/
+    cursor: pointer;/*when mouse hovers over button a hand will show up(pointer)*/
+    outline: 0;
+}
+
+section{
+    
+    text-align: center;
+    background-image: url("london.jpg");
+    background-repeat: no-repeat; /*stops image from repeating on screen*/
+    background-position: center;/*centers the background image*/
+    background-size: cover;/*covers the whole window for section*/
+    
+
+    padding-top: 100px;
+    padding-bottom: 900px;/*sets image padding size*/  
+    
+    font-family: 'Playfair Display', serif;
+    
+
+    
+}
+
+section h1{
+    padding-top: 100px;
+    font-size: 8rem;
+}
+
+
+
+.main-content{
+    font-weight: bold;
+    background-color: white;
+    margin-right: 20rem;/*both commands are margin of p white spaces before and after text*/
+    margin-left: 20rem;
+}
+
+ul li{
+    display: flex;/*removes bullet point from list*/
+    justify-content: center;
+}
+
+
+/*FOR PARIS BLOG*/
+
+.section2{
+    background-image: url("Paris.jpg");  /*sets background to image*/
+    background-repeat: no-repeat; /*stops image from repeating on screen*/
+    background-size: cover;/*allows background to cover all of the screen no white spaces (only covers body)*/
+    background-position: center;/*centers the background image*/
+    display: grid;
+    align-items: center;
+    font-family: 'Playfair Display', serif;/*all text in body including header and other stuff same font*/
+    padding-bottom: 900px;
+}
+
+.section2 h1{
+    padding-top: 100px;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.paris-content{
+    font-weight: bold;
+    background-color: white;
+    margin-right: 20rem;/*both commands are margin of p white spaces before and after text*/
+    margin-left: 20rem;
+    text-align: center;
+}
+
