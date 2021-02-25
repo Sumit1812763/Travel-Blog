@@ -16,7 +16,7 @@ nav{
     align-items:center ;/*moves nav so that its not touching the top of the window*/
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
-    background-color: black ;
+    background-color: rgb(22, 172, 139) ;
     
 }
 
@@ -165,3 +165,61 @@ ul li{
     text-align: center;
 }
 
+
+form{
+    color: black;
+    /* text-align: center;/*positions form on the center of the page*/
+    padding-top: 3cm;
+    display: flex;/*allows content to be on the side*/
+    width: 80%;
+    margin: 50px;
+    ;
+}
+
+.contact-right{
+    flex-basis: 50%;
+    padding: 50px 100px;
+    text-align: left;
+}
+
+.contact-left{
+    flex-basis: 50%;
+    padding: 50px;
+    padding-left: 5rem;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.input-row input{
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    width: 60%;
+    
+}
+
+textarea{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+button{
+    background: rgb(22, 172, 139);
+    color: white;
+    border: none;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.section3 .footer{
+    background-color: chartreuse;
+}
