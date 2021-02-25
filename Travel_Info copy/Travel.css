@@ -17,6 +17,7 @@ nav{
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(22, 172, 139) ;
+    background-image: linear-gradient(to right, rgb(49, 139, 175) ,rgb(22, 172, 139) );
     
 }
 
@@ -69,36 +70,6 @@ nav{
     
 }
 
-form{
-    display: flex;
-    justify-content: center;/*both commands allow searchbox to be displayed in middle vertically and horiontally*/
-    padding-top: 10px;
-    background-color: white;  
-    margin-right: 60rem;/*sets white space around searchbox*/
-    margin-left: 60rem;
-    
-    border-radius: 2rem;/*allows the form background to have curves at the end*/
-    padding: 0.6rem 1rem;/*padding of form done by height then width(basically to searchbox)*/
-     
-    
-    
-}
-
-.search-input{
-    border: none;/*removes border around search box*/
-    display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    border-radius: 2rem;/*allows the searchbox to have curves at the end*/
-    font-family: 'Playfair Display', serif;
-}
-
-.search-button{
-    border: none;/*removes border around search button*/
-    background: transparent;/*makes the search icon disapper its boundaires basically transparent*/
-    cursor: pointer;/*when mouse hovers over button a hand will show up(pointer)*/
-    outline: 0;
-}
 
 section{
     
@@ -211,7 +182,7 @@ textarea{
 }
 
 button{
-    background: rgb(22, 172, 139);
+    background-image: linear-gradient(to right, rgb(49, 139, 175),rgb(22, 172, 139) );
     color: white;
     border: none;
     width: 40%;
@@ -220,6 +191,44 @@ button{
     margin-top: 20px;
 }
 
-.section3 .footer{
-    background-color: chartreuse;
+footer{
+    background-image: linear-gradient(to right, rgb(49, 139, 175),rgb(22, 172, 139) );
+    color: white;
+    text-align: center;
+}
+footer h1{
+    padding-top: 1rem;
+}
+footer ul a{
+    align-items: center;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;  
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;  
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;  
+  }
+  .fa-snapchat {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 10px;
+    border-radius: 100%;  
 }
