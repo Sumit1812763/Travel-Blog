@@ -16,23 +16,68 @@
     <div class="home-page">
         <nav>
             <div class="nav-links">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
                 <li><a href="#blog">Blog</a></li><!--creates nav link to internal page remeber # and then id name-->
-                <a href="#">About</a>
-                <a href="#">Subscribe</a>
+                <a href="#about">About</a>
+                <a href="Subscribe.html">Subscribe</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
 
-        <div class="header">
+        <div class="header" id="home">
             <h1>Travel Blog</h1>
         </div>
         
         <div class="intro">
             <p>Everything you need to know about city travel</p>
         </div>
+        <h2 style="text-align: center;">Recent Blogs</h2>
+        <div class="recent-blog">
+            <div class="responsive">
+            <div class="gallery">
+                <a href="#blog">
+                <img src="London.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">London Blog</div>
+            </div>
+        </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a href="#lisbon-blog">
+                <img src="Lisbon.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Lisbon Blog</div>
+            </div>
+            </div>
+
+            <div class="responsive">
+            <div class="gallery">
+                <a href="#paris-blog">
+                <img src="Paris.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Paris Blog</div>
+            </div>
+            </div>
+
+    
+
+        </div>
     </div>
     <!--end of home-->
+    <div class="about" id="about">
+        <div class="about-container">
+            <h1>Micheal Scott</h1>
+            <h2>Traveller & Blogger</h2>
+            <div class="about-image">
+                <img src="face.jpg" alt="">
+            </div>
+            <p>With my passion for travel I explore many countries with my trusty camera and I am here to tell you about all my experiences and 
+                adventures. I give u details about each city I visit and the best attractions to look out for.
+            </p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </div>
+    <!--end of about-->
     <section>
         <div id="blog">
             <h1>London</h1>
@@ -68,6 +113,23 @@
         </div>
     </div>
     
+    <div class="section3">
+        <div id="lisbon-blog">
+            <h1>Lisbon</h1>
+        </div>
+        <div class="lisbon-content">
+            <p>
+                Lisbon is a historic city and the capital of the Portugal. The biggest city in the country with scenic beaches nearby accompanied by a fresh range of seafood and delicious pastries.
+                Main sights to see include:
+            </p>
+            <ul>
+                <li>Belem Tower</li>
+                <li>Praca de Comerciok</li>
+                <li>Casrelo de S.Jorge</li>
+            </ul>
+        </div>    
+    </div>
+    <!--Lisbon blog ends-->
 
     <form id="contact" action="https://formspree.io/f/meqpwqql" method="POST">
         <div class="contact-right">
@@ -85,11 +147,11 @@
         </div>
         <div class="contact-left">
             <h4>Connect with us:</h4>
-            <p>for support or any questions Email us at @travelblog.com</p>
+            <p>For support or any questions Email us at @travelblog.com</p>
         </div>
     </form>
     <footer>
-        <h1>Find us</h1>
+        <h1>Find us </h1>
         <ul>
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>

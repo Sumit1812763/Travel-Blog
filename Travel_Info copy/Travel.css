@@ -70,6 +70,95 @@ nav{
     
 }
 
+.recent-blog{
+    display: flex;
+    justify-content: center;
+}
+.recent-blog h2{
+text-align: center;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(49, 139, 175),rgb(22, 172, 139) );
+    
+}
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.about{
+    background-image: url(Split-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+.about-container{
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 4 rem;
+    padding: 0 3rem;
+    padding-bottom: 2cm;
+}
+.about-container h1{
+    color:rgb(22, 172, 139) ;
+}
+.about-container p{
+    text-align: center;
+    color:black;
+    margin-bottom: 1cm;
+}
+.about-image img{
+    border-radius: 100%;
+}
+.about-container a{
+    text-decoration: none;
+    color: rgb(22, 172, 139);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    outline: none;
+}
+
 
 section{
     
@@ -136,6 +225,33 @@ ul li{
     text-align: center;
 }
 
+/*FOR LISBON BLOG*/
+
+.section3{
+    background-image: url("Lisbon.jpg");  /*sets background to image*/
+    background-repeat: no-repeat; /*stops image from repeating on screen*/
+    background-size: cover;/*allows background to cover all of the screen no white spaces (only covers body)*/
+    background-position: center;/*centers the background image*/
+    display: grid;
+    align-items: center;
+    font-family: 'Playfair Display', serif;/*all text in body including header and other stuff same font*/
+    padding-bottom: 900px;
+}
+
+.section3 h1{
+    padding-top: 100px;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.lisbon-content{
+    font-weight: bold;
+    background-color: white;
+    margin-right: 20rem;/*both commands are margin of p white spaces before and after text*/
+    margin-left: 20rem;
+    text-align: center;
+}
+
 
 form{
     color: black;
@@ -151,6 +267,11 @@ form{
     flex-basis: 50%;
     padding: 50px 100px;
     text-align: left;
+    margin-left: 15rem;
+}
+
+.contact-right h1{
+    color:rgb(22, 172, 139) ;
 }
 
 .contact-left{
@@ -158,7 +279,9 @@ form{
     padding: 50px;
     padding-left: 5rem;
 }
-
+.contact-left h4{
+    color:rgb(22, 172, 139) ;
+}
 .input-row{
     display: flex;
     justify-content: space-between;
@@ -170,12 +293,12 @@ form{
     border: none;
     border-bottom: 1px solid;
     outline: none;
-    width: 60%;
+    width: 100%;
     
 }
 
 textarea{
-    width: 60%;
+    width: 100%;
     border: none;
     border-bottom: 1px solid;
     outline: none;
@@ -198,6 +321,7 @@ footer{
 }
 footer h1{
     padding-top: 1rem;
+    
 }
 footer ul a{
     align-items: center;
@@ -205,12 +329,15 @@ footer ul a{
     text-decoration: none;
     font-size: 50px;
     margin-bottom: 1rem;
+    text-align: center;
 }
 .fa-facebook {
     background: #3B5998;
     color: white;
     padding: 10px;
-    border-radius: 100%;  
+    border-radius: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .fa-twitter {
@@ -220,7 +347,7 @@ footer ul a{
     border-radius: 100%;  
   }
   .fa-instagram {
-    background: #125688;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     color: white;
     padding: 10px;
     border-radius: 100%;  
